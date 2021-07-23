@@ -2,11 +2,20 @@
 
 This is the config I use for starship prompt. Feel free to hack it.
 
+Prerequisites:
+ - A [Nerd Font](https://www.nerdfonts.com/font-downloads) installed
+
 Installation:
 
- - Install starship:
 ```sh
-sudo snap install starship
+#install starship from snap ubuntu
+sudo snap install starship 
+
+#download this repo with the .toml file
+cd
+git clone https://github.com/liviuq/starship-config
+cd starship-config
+cp starship.toml ~/.config/
 ```
 
- - Copy the starship.tomp into ~/.config/
+
