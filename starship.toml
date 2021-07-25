@@ -10,7 +10,7 @@
 #other synbols for customization: 𝕏, 𝄡, ⤫, ⤲, ⌅, ᐰ
 [character]
     format = "$symbol"
-    success_symbol = "[ꕞ ](#602076)"
+    success_symbol = "[ꕞ ](#cc8a3f)"
     error_symbol = "[⊭ ](bold red)"
 
 #Prompt settings
@@ -21,10 +21,10 @@
 [directory]
     truncation_length = 3
     truncate_to_repo = true
-    format = "[$path]($style)[$read_only]($read_only_style) "
+    format = "[<](#e8b00b)[$path]($style)[$read_only]($read_only_style)[>](#e8b00b)"
     style = "#33ada7"
     read_only_style = "red"
-    truncation_symbol = "../"
+    truncation_symbol = ""
     home_symbol = "~"
 
 #Git branch settings
@@ -44,6 +44,7 @@
     cherry_pick = "[PICKING](bold red)"
 
 #Git status settings
+#Replace those with other "more subtle" unicode icons
 [git_status]
     conflicted = "⚔️ "
     ahead = "🏎️ 💨 ×${count}"
@@ -57,7 +58,7 @@
     deleted = "🗑️  ×${count}"
     style = "bright-white"
     format = "$all_status$ahead_behind"
-    disabled = true
+    disabled = false
 
 #Hostname settings
 [hostname]
@@ -71,5 +72,5 @@
     style_user = "red bold dimmed"
     style_root = "#252f48"
     format = "[$user@]($style) "
-    disabled = true
-    show_always = true
+    disabled = false
+    show_always = false
