@@ -17,5 +17,5 @@ git clone https://github.com/liviuq/starship-config
 cd starship-config
 cp starship.toml ~/.config/
 ```
-
+NOTE: This repo will be archived. Reason: creating a "dotfiles" repo instead.
 
